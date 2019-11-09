@@ -17,16 +17,21 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container">
-                <a class="navbar-brand font-weight-bold" href="/index.html">Selecty</a>
+                <a class="navbar-brand font-weight-bold" href="/index.html">Teste Selecty</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
+       
                 <ul class="navbar-nav mr-auto mb-3 mb-md-0">
+                        <li class="nav-item active">
+                                <a class="nav-link d-flex" href="/index.html"><i class="material-icons mr-2">home</i>
+                                    Início</a>
+                            </li>
                     <li class="nav-item active">
-                        <a class="nav-link d-flex" href="/index.html"><i class="material-icons mr-2">arrow_forward</i>
-                            Ver Vagas</a>
+                        <a class="nav-link d-flex" href="/vagas.html"><i class="material-icons mr-2">sort</i>
+                            Todas as vagas</a>
                     </li>
                 </ul>
                 <form class="form-inline ml-auto mb-3 mb-md-0 mr-md-5">
@@ -43,61 +48,69 @@
         </div>
     </nav>
     <div class="container py-4">
-        <div class="row">
-            <div class="col-md-3 d-none d-md-block">
-                <div class="card">
-                    <div class="card-body">
-                        <span class="d-block text-muted mb-2"><b>Tipo de vaga</b></span>
-                       
-                        <a href="" class="text-dark small d-block mb-1">Autônomo (100)</a>
-                        <a href="" class="text-dark small d-block mb-1">Estágio (55)</a>
-                        <a href="" class="text-dark small d-block mb-1">CLT (485)</a>
-                        <a href="" class="text-dark small d-block mb-1">Tempo integral (360)</a>
-                        <a href="" class="text-dark small d-block mb-1">Meio Período (62)</a>
-                    </div>
+            <div class="card shadow mb-4">
+                <div class="card-body">
+                    <h1 class="text-center h3 mb-3 text-muted">Seu próximo emprego está aqui</h1>
+                        <form>
+                                <div class="d-md-flex align-items-center justify-content-center">
+                                  <div class="form-group w-100 mb-md-0  mr-md-3">
+                                    <label class="font-weight-bold">Cargo ou empresa</label>
+                                    <input type="text" class="form-control form-control-lg" placeholder="">
+                                  </div>
+                                  <div class="form-group w-100 mb-0 mr-md-3">
+                                        <label class="font-weight-bold">Cidade</label>
+                                        <input type="text" class="form-control form-control-lg" placeholder="">
+                                        
+                                      </div>
+                                      <button type="submit" class="btn btn-primary btn-lg font-weight-bold">Buscar</button>
+                                 
+                                </div>
+                              </form>
                 </div>
             </div>
-            <div class="col-md-9">
-                <div class="card box-shadow mb-2">
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="vaga.html" class="stretched-link">Designer Digital Jr.</a></h5>
-                        <h6 class="card-subtitle text-muted">Herospark</h6>
-                        <small class="card-subtitle mb-2 text-muted">Centro, Curitiba/PR</small>
+            <h2 class="h4 mb-4">Vagas em destaque</h2>
+            <div class="row">
+                    <div class="col-md-6">
+                            <div class="card box-shadow mb-4">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><a href="vaga.html" class="stretched-link">Redator Jr.</a></h5>
+                                        <h6 class="card-subtitle text-muted">Empresa confidencial</h6>
+                                        <small class="card-subtitle mb-2 text-muted">Bigorrilho, Curitiba/PR</small>
+                                    </div>
+                                </div>
+                    </div>
+                    <div class="col-md-6">
+                            <div class="card box-shadow mb-4">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><a href="vaga.html" class="stretched-link">Designer Digital Jr.</a></h5>
+                                        <h6 class="card-subtitle text-muted">Herospark</h6>
+                                        <small class="card-subtitle mb-2 text-muted">Centro, Curitiba/PR</small>
+                                    </div>
+                                </div>
+                    </div>
+                    <div class="col-md-6">
+                            <div class="card box-shadow mb-4">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><a href="vaga.html" class="stretched-link">UX Designer</a></h5>
+                                        <h6 class="card-subtitle text-muted">Nubank</h6>
+                                        <small class="card-subtitle mb-2 text-muted">Hauer, Curitiba/PR</small>
+                                    </div>
+                                </div>
+                    </div>
+                    <div class="col-md-6">
+                            <div class="card box-shadow mb-4">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><a href="vaga.html" class="stretched-link">Diretor de Arte Pleno</a></h5>
+                                        <h6 class="card-subtitle text-muted">Mirum</h6>
+                                        <small class="card-subtitle mb-2 text-muted">Curitiba/PR</small>
+                                    </div>
+                                </div>
                     </div>
                 </div>
-                <div class="card box-shadow mb-2">
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="vaga.html" class="stretched-link">UX Designer</a></h5>
-                        <h6 class="card-subtitle text-muted">Nubank</h6>
-                        <small class="card-subtitle mb-2 text-muted">Hauer, Curitiba/PR</small>
-                    </div>
-                </div>
-                <div class="card box-shadow mb-2">
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="vaga.html" class="stretched-link">Diretor de Arte Pleno</a></h5>
-                        <h6 class="card-subtitle text-muted">Mirum</h6>
-                        <small class="card-subtitle mb-2 text-muted">Curitiba/PR</small>
-                    </div>
-                </div>
-                <div class="card box-shadow mb-2">
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="vaga.html" class="stretched-link">Redator Jr.</a></h5>
-                        <h6 class="card-subtitle text-muted">Empresa confidencial</h6>
-                        <small class="card-subtitle mb-2 text-muted">Bigorrilho, Curitiba/PR</small>
-                    </div>
-                </div>
-                <div class="card box-shadow mb-2">
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="vaga.html" class="stretched-link">Desenvolvedor front-end</a>
-                        </h5>
-                        <h6 class="card-subtitle text-muted">Empresa confidencial</h6>
-                        <small class="card-subtitle mb-2 text-muted">Hauer, Curitiba/PR</small>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
-
+    <footer class="text-center bg-dark text-light py-3">
+            © 2019 Teste Selecty - Gerson Siqueira
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
